@@ -1,0 +1,150 @@
+        /* conteudo */
+        
+        body {
+            background-color: #e5e7e5;
+        }
+
+        header {
+            background-color: #e2cae1;
+            padding-top: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        section {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+
+        p,
+        span {
+            text-align: center;
+            color: #fff;
+            font-size: 25pt;
+            margin-bottom: 0px;
+        }
+
+        .d-flex {
+            justify-content: space-around;
+        }
+
+        /* botão */
+
+        #botaoCalc {
+            padding: 11px;
+            font-size: 15pt;
+            background-color: #316303;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #165e18;
+        }
+
+        #btnZerar {
+            padding: 11px;
+            font-size: 15pt;
+            background-color: #babdb8;
+            color: #f30909;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #5f6960;
+        }
+
+        #botaoInverter {
+            padding: 11px;
+            font-size: 15pt;
+            background-color: #2139bd;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #1b29a5;
+        }
+
+        /* containers */
+
+        #imparOUpar {
+            background-color: #88d194;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px #3f3a3a;
+            color: #ffffff;
+        }
+
+        #calcSalario {
+            padding: 11px;
+            font-size: 15pt;
+            background-color: #bd2121;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #be2626;
+        }
+
+        #inverter {
+            background-color: #89b5da;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px #3f3a3a;
+            color: #ffffff;
+        }
+
+        #salario {
+            background-color: #da8989;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px #3f3a3a;
+            color: #ffffff;
+        }
+
+        div {
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        #entradaNumero,
+        #primeiroNumero,
+        #segundoNumero {
+            text-align: center;
+            height: 50px;
+            width: 80px;
+            border-radius: 8px;
+            font-size: 23px;
+        }
+
+        #inserirSalario {
+            text-align: center;
+            height: 50px;
+            width: 150px;
+            border-radius: 8px;
+            font-size: 23px;
+        }
+
+
+        /* rodapé  */
+        footer {
+            position: float;
+            bottom: 0;
+            background-color: #e2cae1;
+            margin: 10px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        footer p {
+            color: white;
+            text-align: center;
+            font-style: italic;
+
+        }

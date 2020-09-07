@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Aula 04</title>
+
+    
+    <meta name="keywords" content="Portfólio Rafaela Saori" />
+    <meta name="description" content="Rafaela Saori FrontEnd & TI">
+    <meta name="author" content="Rafaela Saori">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+
+    <!-- Fontes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <!-- estilo -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Exercícios Aula 04</h1>
+                </div class="col-md-12">
+            </div class="row">
+        </div>
+    </header>
+
+
+    <section class="mb-3" id="imparOUpar">
+        <p>Digite um número inteiro:</p>
+        <div class="d-flex">
+            <input type="number" name="numero" id="entradaNumero">
+            <input type="button" value="verificar" onclick="calcular()" id="botaoCalc">
+            <input type="button" value="zerar" onclick="zerar()" id="btnZerar">
+        </div>
+
+        <div id="resultado">
+            <span>é par ou impar o número?</span>
+        </div>
+    </section>
+
+    <section class="mb-3" id="inverter">
+        <p>Digite dois números inteiros</p>
+        <div class="d-flex">
+            <input type="number" name="primeiroNumero" id="primeiroNumero">
+            <input type="number" name="segundoNumero" id="segundoNumero">
+            <input type="button" value="inverter" onclick="inverter()" id="botaoInverter">
+            <input type="button" value="zerar" onclick="zerar()" id="btnZerar">
+        </div>
+
+        <div id="resInverter">
+            <span>vamos inverter os números?</span>
+        </div>
+    </section>
+
+    <section class="mb-3" id="salario">
+        <p>Digite seu salário</p>
+        <div class="d-flex">
+            <input type="number" name="salário" id="inserirSalario">
+            
+            <input type="button" value="Ryca?" onclick="salario()" id="calcSalario">
+            <input type="button" value="zerar" onclick="zerar()" id="btnZerar">
+        </div>
+
+        <div id="aumento">
+            <span>quanto será teu aumento?</span>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6>@Rafaela Saori 2020</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/exercicio04.js"></script>
+</body>
+
+</html>
